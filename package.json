@@ -1,0 +1,17 @@
+{
+  "name": "aigen-1773616471828",
+  "version": "1.0.0",
+  "description": "aigen",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "playwright-chromium": "^1.58.2",
+    "serve": "^14.2.6"
+  }
+}

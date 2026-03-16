@@ -1,0 +1,126 @@
+:root {
+    --primary: #00b7af;
+    --dark: #10181f;
+    --light: #ffffff;
+    --secondary: #6a7071;
+    --bg-color: #f4f7f8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: var(--light);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+header h1 {
+    color: var(--dark);
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.button-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.action-btn {
+    background-color: var(--primary);
+    color: var(--light);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    width: 100%;
+}
+
+.action-btn:hover {
+    background-color: #009d96;
+    transform: translateY(-2px);
+}
+
+.action-btn:active {
+    transform: translateY(0);
+}
+
+.code-display {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary);
+    background: #f0f3f4;
+    padding: 10px 20px;
+    border-radius: 4px;
+    min-width: 140px;
+}
+
+#combined-section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 2px solid #eee;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+#combined-section.hidden {
+    display: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.key-display {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: 4px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .button-grid {
+        grid-template-columns: 1fr;
+    }
+}

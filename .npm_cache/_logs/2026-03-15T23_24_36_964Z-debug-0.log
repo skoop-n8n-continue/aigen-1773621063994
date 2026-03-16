@@ -1,0 +1,18 @@
+0 verbose cli /var/lang/bin/node /var/lang/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/var/lang/lib/node_modules/npm/npmrc
+4 silly config load:file:/tmp/agent_workspace/46e02748-3386-4ed7-a1ae-df465b9ccabf/aigen-1773616471828/.npmrc
+5 silly config load:file:/tmp/.npmrc
+6 silly config load:file:/var/lang/etc/npmrc
+7 verbose title npm exec playwright install chromium
+8 verbose argv "exec" "--" "playwright" "install" "chromium"
+9 verbose logfile logs-max:10 dir:/tmp/agent_workspace/46e02748-3386-4ed7-a1ae-df465b9ccabf/aigen-1773616471828/.npm_cache/_logs/2026-03-15T23_24_36_964Z-
+10 verbose logfile /tmp/agent_workspace/46e02748-3386-4ed7-a1ae-df465b9ccabf/aigen-1773616471828/.npm_cache/_logs/2026-03-15T23_24_36_964Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /tmp/agent_workspace/46e02748-3386-4ed7-a1ae-df465b9ccabf/aigen-1773616471828
+13 verbose os Linux 5.10.248-247.988.amzn2.x86_64
+14 verbose node v20.20.0
+15 verbose npm  v10.8.2
+16 verbose exit 0
+17 info ok
